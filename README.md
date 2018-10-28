@@ -30,5 +30,6 @@ download_pictures_title(dir = ".", title = "The Shape of Water", n_pictures = 5)
 Use `download_pictures` to get all the images for the titles of a given month and year. Combines the above two functions.
 
 ```
-download_pictures(dir = ".", month = 1, year = 2018, n_movies = 5, movies_only = TRUE, n_pictures = 5, subdir_organize = FALSE)
+download_pictures(dir = ".", month = 1, year = 2018, n_movies = 5,
+                  movies_only = TRUE, n_pictures = 5, subdir_organize = FALSE)
 ```
